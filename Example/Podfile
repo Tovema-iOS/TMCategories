@@ -1,0 +1,8 @@
+source 'https://github.com/Tovema-iOS/Specs.git'
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FLCategories_Example' do
+    pod "TMCategories", :path => "../"
+end
