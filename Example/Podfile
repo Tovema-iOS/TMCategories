@@ -4,5 +4,5 @@ source 'https://github.com/Tovema-iOS/Specs.git'
 platform :ios, '8.0'
 
 target 'FLCategories_Example' do
-    pod "TMCategories", :path => "../"
+    pod "TMCategories2", :path => "../"
 end

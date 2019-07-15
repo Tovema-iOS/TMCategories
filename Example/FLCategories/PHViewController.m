@@ -7,7 +7,7 @@
 //
 
 #import "PHViewController.h"
-#import <TMCategories/TMCategories.h>
+#import <TMCategories2/TMCategories.h>
 
 #define kSectionTitleKey @"SectionTitle"
 #define kCellTitleArrayKey @"CellTitleArray"
