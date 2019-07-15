@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "TMCategories"
-  s.version          = "1.0.1"
+  s.name             = "TMCategories2"
+  s.version          = "1.0.2"
   s.summary          = "常用类别"
 
   s.description      = "常用类别库"
