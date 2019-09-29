@@ -18,6 +18,7 @@
 		6003F5A7195388D20070C39A /* PHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D0C8C21223403ED1009A8959 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C8C21123403ED1009A8959 /* Launch.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B12A594031F10C4FFB498411 /* Pods-FLCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCategories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLCategories_Example/Pods-FLCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C551711FC9185C2F3C3E5D9F /* libPods-PHCategories_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PHCategories_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF853468D99FD6FC3DA17C /* Pods-PHCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHCategories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHCategories_Example/Pods-PHCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0C8C21123403ED1009A8959 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* FLCategories-Info.plist */,
+				D0C8C21123403ED1009A8959 /* Launch.storyboard */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* FLCategories-Prefix.pch */,
@@ -175,7 +178,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PH;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = linxiaobin;
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "FLCategories" */;
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				172D5B23211985AE007E78DE /* TMCategories2.podspec in Resources */,
+				D0C8C21223403ED1009A8959 /* Launch.storyboard in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -261,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -314,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -361,7 +367,6 @@
 			baseConfigurationReference = B12A594031F10C4FFB498411 /* Pods-FLCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLCategories/FLCategories-Prefix.pch";
 				INFOPLIST_FILE = "FLCategories/FLCategories-Info.plist";
@@ -382,7 +387,6 @@
 			baseConfigurationReference = AD916D320E2C337337820602 /* Pods-FLCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLCategories/FLCategories-Prefix.pch";
 				INFOPLIST_FILE = "FLCategories/FLCategories-Info.plist";

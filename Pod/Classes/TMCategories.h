@@ -8,6 +8,7 @@
 #ifndef TMCategories_h
 #define TMCategories_h
 
+#import <TMCategories2/NSObject+TMContainsKey.h>
 #import <TMCategories2/NSObject+TMExtend.h>
 #import <TMCategories2/NSDate+TMExtent.h>
 #import <TMCategories2/NSDate+TMKalAdditions.h>

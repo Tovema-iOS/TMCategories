@@ -68,8 +68,6 @@
 + (UIColor *)tm_randomColor;
 + (UIColor *)tm_colorWithString:(NSString *)stringToConvert;
 + (UIColor *)tm_colorWithString2:(NSString *)stringToConvert;
-+ (UIColor *)tm_colorWithRGBHex:(UInt32)hex;
-+ (UIColor *)tm_colorWithHexString:(NSString *)stringToConvert;
 + (UIColor *)tm_colorWithName:(NSString *)cssColorName;
 + (UIColor *)tm_crayonWithName:(NSString *)crayonColorName;
 

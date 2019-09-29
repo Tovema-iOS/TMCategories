@@ -30,7 +30,7 @@
 		<true/>
 	</dict>
 	<key>UILaunchStoryboardName</key>
-	<string></string>
+	<string>Launch</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
